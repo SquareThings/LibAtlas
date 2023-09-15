@@ -1,0 +1,98 @@
+body {
+margin: 0;
+padding: 0;
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+ 
+#map {
+position: absolute;
+top: 0;
+bottom: 0;
+width: 100%;
+}
+ 
+h1 {
+font-size: 20px;
+line-height: 25px;
+}
+ 
+h2 {
+font-size: 14px;
+line-height: 20px;
+margin-bottom: 10px;
+}
+ 
+a {
+text-decoration: none;
+color: #3366CC;
+}
+ 
+#console {
+position: absolute;
+margin: 20px;
+width: 240px;
+height: 375px;
+background-color: white;
+padding: 20px;
+}
+
+#sidebar {
+position: absolute;
+width: 392px;
+height: 100%;
+background-color: beige;
+right: 0;
+}
+
+#header {
+position: absolute;
+width: 1728px;
+height: 44px;
+background-color: #220000;
+}
+
+.session {
+margin-bottom: 10px;
+}
+ 
+.row {
+height: 12px;
+width: 100%;
+}
+
+.time {
+height: 10px;
+width: 100%;
+margin: 0px;
+}
+ 
+.label {
+width: 15%;
+display: inline-block;
+flex-wrap: wrap;
+text-align: center;
+}
+
+.radio {
+flex-wrap: wrap;
+}
+
+.button {
+margin: 8px;
+background-color: #220000;
+color: white;
+border: none;
+font-size: 20px;
+border-radius: 10px;
+margin-right: 82px;
+}
+
+.button:hover {
+background-color: white;
+color: #220000;
+transition: 0.7s;
+}
+
+.button-container{
+margin-left: 699px;
+}

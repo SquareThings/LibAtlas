@@ -1,0 +1,222 @@
+@font-face {
+  font-family: 'EBGaramond';
+  src: local('EBGaramond'), url(./assets/fonts/EB_Garamond/static/EBGaramond-Medium.ttf) format('opentype');
+}
+
+@font-face {
+  font-family: 'EBGaramond';
+  src: url(./assets/fonts/EB_Garamond/static/EBGaramond-Italic.ttf);
+  font-style: italic;
+}
+
+.background {
+  background-color: rgb(251, 248, 224);
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.containCenter {
+  margin-top: 7%;
+  margin-left: -3%;
+  display: flex;
+  align-content: space-between;
+  justify-content: flex-start;
+}
+
+.clear {
+  text-decoration: none;
+}
+
+.embedMap {
+  width: 90%;
+  height: 100vh;
+}
+
+#divMapNYC {
+
+  width: 35vh;
+  height: 25vh;
+  margin-left: 100px;
+  background-image: url('./assets/fonts/nyc.jpeg');
+  background-size: cover;
+  border-radius: 5%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #ff0000;
+
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: 'EBGaramond';
+  font-size: 7vh;
+
+}
+
+#divMapNJ {
+
+  width: 35vh;
+  height: 25vh;
+  margin-left: 100px;
+  background-image: url('./assets/fonts/NJ.jpeg');
+  background-size: cover;
+  border-radius: 5%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #ff0000;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: 'EBGaramond';
+  font-size: 7vh;
+
+
+}
+
+#divMapPVD {
+
+  width: 35vh;
+  height: 25vh;
+  margin-left: 100px;
+}
+
+.headerText {
+  color: black;
+  font-family: 'EBGaramond';
+  font-size: 15vh;
+  margin-top: 5%;
+  margin-bottom: -2%;
+  margin-left: 4%;
+}
+
+.headerTwoText {
+  color: rgb(0, 0, 0);
+  font-family: 'EBGaramond';
+  font-size: 5.8vh;
+  margin-top: 0%;
+  margin-left: 4%;
+}
+
+.headerMapText {
+  color: rgb(0, 0, 0);
+  font-family: 'EBGaramond';
+  font-size: 5.8vh;
+  margin-top: 7%;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  text-align: left;
+}
+
+.headerMapTextTwo {
+  color: rgb(0, 0, 0);
+  font-family: 'EBGaramond';
+  font-size: 4vh;
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-bottom: -2%;
+  text-align: left;
+}
+
+.mapText {
+  text-align: left;
+  font-size: 17px;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+#mapTextBack {
+  text-align: left;
+  font-size: 17px;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 2%;
+}
+
+.mapTextContainer {
+  width: 80%;
+  height: 25vh;
+  border-radius: 20px;
+  border-width: 2px;
+  margin: 3%;
+  text-align: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  font-family: 'EBGaramond';
+  font-size: 14px;
+}
+
+.mapTextContainer2 {
+  width: 80%;
+  height: 10vh;
+  border-radius: 20px;
+  border-width: 2px;
+  margin-bottom: 0%;
+  margin-left: 3%;
+  margin-top: 3%;
+  text-align: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  font-family: 'EBGaramond';
+  font-size: 14px;
+}
+
+.headerThreeText {
+  color: rgb(0, 0, 0);
+  font-family: 'EBGaramond';
+  font-style: italic;
+  font-size: 3.85vh;
+  margin-top: 2%;
+  margin-left: 4%;
+  text-shadow: 2px 2px #1200000f;
+}
+
+#headerLine {
+  width: 70%;
+  height: .3vh;
+  margin-left: 4%;
+  margin-top: -2%;
+  background-color: red;
+}
+
+#headerDiv {
+  text-align: left;
+}
+
+#redD {
+  width: 50%;
+  position: absolute;
+  top: 20%;
+  left: 57.2%;
+  bottom: 0%;
+  z-index: -1000;
+  opacity: 100%;
+  transform: rotate(-90deg);
+
+
+}
+
+#bird {
+  position: absolute;
+  top: 23.5%;
+  left: 68%;
+  width: 20%;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="contact.css"/>
+</head>
+<body>
+<div id="header">
+    <div class="button-container">
+        <a href="about.html"><button type="button" class="button">About</button></a>
+        <a href="index_LAM.html"><button type="button" class="button">Map Archive</button></a>
+        <button type="button" class="button">Resources</button>
+        <a href="contact.html"><button type="button" class="button">Contact</button></a>
+    </div>
+</div>
+
+<div id="input form">
+    <h1>Contact Us</h1>
+    <p>Feel free to contact us about general inquiries, or if you'd like to anonymously share your story with us.</p>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email Address:</label><br>
+        <input type="text" id="email" name="email"><br>
+        <p>Type of Inquiry</p>
+        <input type="radio" id="general" name="general" value="general">
+        <label for="general">General Contact</label>
+        <input type="radio" id="share" name="share" value="share">
+        <label for="share">Share Your Story</label><br>
+        <textarea id="freeform" name="freeform" rows="30" cols="70"></textarea><br>
+        <input id="submit" type="Submit" value="Submit">
+    </form>
+</div>
+
+</body>
+</html>
