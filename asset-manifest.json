@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/LibAtlas/static/css/main.25a59f9e.css",
+    "main.js": "/LibAtlas/static/js/main.df82e73d.js",
+    "static/js/787.28cb0dcd.chunk.js": "/LibAtlas/static/js/787.28cb0dcd.chunk.js",
+    "static/media/NJ.jpeg": "/LibAtlas/static/media/NJ.be1f785905010445897e.jpeg",
+    "static/media/EBGaramond-Medium.ttf": "/LibAtlas/static/media/EBGaramond-Medium.1d8109093c288b5cdafc.ttf",
+    "static/media/EBGaramond-Italic.ttf": "/LibAtlas/static/media/EBGaramond-Italic.a498ec9c34e6bbd355e5.ttf",
+    "static/media/nyc.jpeg": "/LibAtlas/static/media/nyc.4beb61daa8b937ead37a.jpeg",
+    "static/media/bird.png": "/LibAtlas/static/media/bird.6a8135c408a39e7c6d47.png",
+    "static/media/redDecor.png": "/LibAtlas/static/media/redDecor.6fe511bf7b63f09d761a.png",
+    "static/media/logo.png": "/LibAtlas/static/media/logo.e0ad998f301bd08b7ee1.png",
+    "index.html": "/LibAtlas/index.html",
+    "main.25a59f9e.css.map": "/LibAtlas/static/css/main.25a59f9e.css.map",
+    "main.df82e73d.js.map": "/LibAtlas/static/js/main.df82e73d.js.map",
+    "787.28cb0dcd.chunk.js.map": "/LibAtlas/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25a59f9e.css",
+    "static/js/main.df82e73d.js"
+  ]
+}
