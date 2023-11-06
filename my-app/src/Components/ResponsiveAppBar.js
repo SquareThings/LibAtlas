@@ -13,6 +13,11 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import logo from '../assets/fonts/logo.png';
+import { menuItems } from './menuItems.js';
+import MenuItems from './menuItems';
+import Dropdown from "react-multilevel-dropdown";
+import { red } from '@mui/material/colors';
+import '../App.css';
 
 const pages = ['About', 'Archive', 'Resources'];
 
@@ -114,9 +119,43 @@ function ResponsiveAppBar() {
             Liberation Atlas
           </Typography>
 
+          <div class="pageBox">
 
+            {menuItems.map((menuItems) => (
+              menuItems.children && menuItems.children.length > 0 ? (
+                <Dropdown
+                  style={{ backgroundColor: "black", color: "white" }}
+                  title={menuItems.name}
+                  $secondary
+                >
+                  {menuItems.children &&
+                    menuItems.children.map((item) => (
+                      <Dropdown.Item>
+                        {item.name}
+                        {item.children}
+                      </Dropdown.Item>
+                    ))}
+                </Dropdown>
+              ) :
+                <Dropdown
+                  style={{ backgroundColor: "black", color: "white" }}
+                  title={menuItems.name}
+                  $secondary
+                >
+                </Dropdown>
+            ))}
+          </div>
 
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, color: 'white', justifyContent: 'flex-end', alignItems: 'flex-end' }}>
+          {/* <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, color: 'white', justifyContent: 'flex-end', alignItems: 'flex-end' }}>
+
+            {menuItems.map((menu, index) => {
+              return (
+                <li className="menu-items" key={index}>
+                  <a href={menu.url}>{menu.title}</a>
+                </li>
+              );
+            })}
+
             {pages.map((page) => (
               <a href={`my-app/src/${page}`}
                 style={{ textDecoration: 'none' }}>
@@ -129,7 +168,18 @@ function ResponsiveAppBar() {
                 </Button>
               </a>
             ))}
-          </Box>
+            <a href={`my-app/src/${menuItems.url}`}
+                style={{ textDecoration: 'none' }}>
+                <Button
+                  key={menuItems.url}
+                  onClick={handleCloseNavMenu}
+                  sx={{ my: 2, color: 'white', display: 'block', margin: '3%' }}
+                >
+                  {menuItems.name}
+                </Button>
+              </a>
+
+          </Box> */}
 
         </Toolbar>
       </Container>
