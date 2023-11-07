@@ -5,6 +5,7 @@ export const menuItems = [
     {
         name: 'About',
         url: '/about',
+
     },
     {
         name: 'Events',
@@ -20,7 +21,7 @@ export const menuItems = [
             },
             {
                 name: 'Nonconsensual Recording Report',
-                url: '/NonConVidReport',
+                url: '/NonConsensualVidReport',
             }
         ],
     },

@@ -4,17 +4,16 @@ import ResponsiveAppBar from '../Components/ResponsiveAppBar';
 import redDecor from '../assets/fonts/redDecor.png';
 import bird from '../assets/fonts/bird.png'
 
-function Resources() {
+function VidReporting() {
     const background = true;
     return (
 
         <div className="App">
-
-            <p>Resources</p>
+            <p>VidReporting</p>
         </div>
 
 
     );
 }
 
-export default Resources;
+export default VidReporting;

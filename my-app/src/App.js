@@ -6,10 +6,40 @@ import redDecor from './assets/fonts/redDecor.png';
 import bird from './assets/fonts/bird.png';
 import NYC from "./pages/NYC";
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import AppRouter from './AppRouting';
+import About from "./pages/About";
+import Events from "./pages/Events";
+import Tools from "./pages/Tools";
+import Maps from "./pages/Maps";
+import Resources from "./pages/About";
+import DOBLookup from "./pages/DOBLookup";
+import VidReporting from "./pages/VidReporting";
+import Home from "./pages/Home";
 
 function App() {
   const background = true;
+
   return (
+    <Router>
+      <div>
+        <ResponsiveAppBar />
+        <Switch>
+          <Route exact path="/"> <Home /> </Route>
+          <Route exact path="/about"> <About /> </Route>
+          <Route exact path="/events"> <Events /> </Route>
+          <Route exact path="/tools"> <Tools /> </Route>
+          <Route path="/tools/DOBTickets"> <DOBLookup /> </Route>
+          <Route path="/tools/VidReporting"> <VidReporting /> </Route>
+          <Route exact path="/maps"> <Maps /> </Route>
+          <Route path="/maps/NYCArrestMap"> <NYC /> </Route>
+          <Route path="/resources"> <Resources /> </Route>
+        </Switch>
+      </div>
+    </Router>)
+}
+export default App;
+
+{/* return (
     <Router>
       <div className="App">
         <div>
@@ -39,7 +69,7 @@ function App() {
         </Switch>
       </div>
     </Router>
-  );
+  ); */
 }
 
-export default App;
+

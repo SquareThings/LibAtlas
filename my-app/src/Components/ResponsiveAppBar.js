@@ -18,6 +18,9 @@ import MenuItems from './menuItems';
 import Dropdown from "react-multilevel-dropdown";
 import { red } from '@mui/material/colors';
 import '../App.css';
+import AppRouter from '../AppRouting';
+import { Link } from 'react-router-dom';
+
 
 const pages = ['About', 'Archive', 'Resources'];
 
@@ -124,25 +127,33 @@ function ResponsiveAppBar() {
             {menuItems.map((menuItems) => (
               menuItems.children && menuItems.children.length > 0 ? (
                 <Dropdown
+                  //openOnHover={true}
                   style={{ backgroundColor: "black", color: "white" }}
                   title={menuItems.name}
+                  /* title={<Link to={menuItems.url} style={{ backgroundColor: "black", color: "white", textDecoration: "none" }}>
+                     {menuItems.name}
+                   </Link>}*/
                   $secondary
                 >
                   {menuItems.children &&
                     menuItems.children.map((item) => (
-                      <Dropdown.Item>
+                      <Link to={menuItems.url + item.url}> <Dropdown.Item >
                         {item.name}
                         {item.children}
-                      </Dropdown.Item>
+                      </Dropdown.Item> </Link>
                     ))}
                 </Dropdown>
               ) :
                 <Dropdown
                   style={{ backgroundColor: "black", color: "white" }}
-                  title={menuItems.name}
+                  title={<Link to={menuItems.url} style={{ backgroundColor: "black", color: "white", textDecoration: "none" }}>
+                    {menuItems.name}
+                  </Link>}
+                  // openOnHover={true}
                   $secondary
                 >
                 </Dropdown>
+
             ))}
           </div>
 
