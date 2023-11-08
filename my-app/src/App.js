@@ -29,7 +29,7 @@ function App() {
           <Route exact path="/events"> <Events /> </Route>
           <Route exact path="/tools"> <Tools /> </Route>
           <Route path="/tools/DOBTickets"> <DOBLookup /> </Route>
-          <Route path="/tools/VidReporting"> <VidReporting /> </Route>
+          <Route path="/tools/NonConsensualVidReport"> <VidReporting /> </Route>
           <Route exact path="/maps"> <Maps /> </Route>
           <Route path="/maps/NYCArrestMap"> <NYC /> </Route>
           <Route path="/resources"> <Resources /> </Route>

@@ -17,8 +17,8 @@ function AppRouter() {
                 <Route path="/events" component={Events} />
                 <Route path="/tools" component={Tools} />
                 <Route path="/maps" component={Maps} />
-                <Route path="/maps/NYCArrestMap" component={NYC} />
                 <Route path="/resources" component={Resources} />
+                <Route path="/maps/NYCArrestMap" component={NYC} />
                 <Route path="/tools/DOBTickets" component={DOBLookup} />
                 <Route path="/tools/NonConsensualVidReport" element={VidReporting} />
             </Switch>

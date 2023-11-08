@@ -146,9 +146,9 @@ function ResponsiveAppBar() {
               ) :
                 <Dropdown
                   style={{ backgroundColor: "black", color: "white" }}
-                  title={<Link to={menuItems.url} style={{ backgroundColor: "black", color: "white", textDecoration: "none" }}>
-                    {menuItems.name}
-                  </Link>}
+                  // title={<Link to={menuItems.url} style={{ backgroundColor: "black", color: "white", textDecoration: "none" }}>
+                  title={menuItems.name}
+                  //  </Link>}
                   // openOnHover={true}
                   $secondary
                 >

@@ -9,8 +9,12 @@ function Events() {
     return (
 
         <div className="App">
-
-            <p>Events</p>
+            <h1 className="headerMapText">
+                Events for Workers
+            </h1>
+            <div className="embedMap">
+                <iframe src={"https://calendar.google.com/calendar/embed?height=700&wkst=1&bgcolor=%23D50000&ctz=America%2FNew_York&showPrint=1&title=%20&src=bGliZXJhdGlvbmF0bGFzQGdtYWlsLmNvbQ&color=%23039BE5"} style={{ width: "1100px", height: "700px" }}></iframe>
+            </div>
         </div>
 
 

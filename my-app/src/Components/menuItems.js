@@ -5,11 +5,23 @@ export const menuItems = [
     {
         name: 'About',
         url: '/about',
+        children: [
+            {
+                name: 'About',
+                url: '',
+            }
+        ],
 
     },
     {
         name: 'Events',
         url: '/events',
+        children: [
+            {
+                name: 'Events',
+                url: '',
+            }
+        ],
     },
     {
         name: 'Tools',
@@ -42,6 +54,12 @@ export const menuItems = [
     {
         name: 'Resources',
         url: '/resources',
+        children: [
+            {
+                name: 'Resources',
+                url: '',
+            }
+        ],
     },
 ];
 
