@@ -9,9 +9,8 @@ function DOBLookup() {
     const background = true;
     return (
         <div className="App">
-        <h1>DOB Violations & Complaints Search Tool</h1>
-        <br></br>
-        <p> Enter the house number, street name, and borough of the address you would like to check.  </p>
+        <h1 className='headerMapText'>DOB Violations & Complaints Search Tool</h1>
+        <p className='dobText'> Enter the house number, street name, and borough of the address you would like to check.  </p>
         <br></br>
         <InputForm />
         </div>
