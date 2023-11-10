@@ -132,7 +132,7 @@ function InputForm() {
                 ): (
                     <br></br>
             )}
-            {apiResponse.body.Violations_Total > 0 ? 
+            {apiResponse.body && apiResponse.body.Violations_Total > 0 ? 
             <p className='violationText'>The infraction code for massage-related violations are: 103, 203, 303 (illegal occupancy), 205, 247, 248, 385 (illegal zoning use)</p>
             
             : (
