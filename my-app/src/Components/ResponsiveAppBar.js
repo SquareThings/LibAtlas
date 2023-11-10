@@ -36,7 +36,7 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position="static" sx={{ bgcolor: 'black', color: 'black', alignContent: 'center', flexWrap: 'wrap' }}>
+    <AppBar position="sticky" sx={{ bgcolor: 'black', color: 'black', alignContent: 'center', flexWrap: 'wrap' }}>
       <Container maxWidth={false} sx={{ color: 'white', bgcolor: 'black', marginLeft: "3%", marginRight: "3%" }}>
         <Toolbar disableGutters >
           <Typography

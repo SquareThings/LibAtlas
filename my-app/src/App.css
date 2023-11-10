@@ -39,7 +39,7 @@
 
 .containCenter {
   margin-top: 7%;
-  margin-left: -3%;
+  margin-left: 1%;
   display: flex;
   align-content: space-between;
   justify-content: flex-start;
@@ -56,22 +56,30 @@
   margin-left: 11%;
 }
 
-#divMapNYC {
+.divMapNYC {
 
   width: 35vh;
   height: 25vh;
-  margin-left: 100px;
-  background-image: url('./assets/fonts/nyc.jpeg');
+  display: flex;
+  margin-left: 40px;
+  margin-top: -10%;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url('./assets/fonts/nyc.jpeg'); */
   background-size: cover;
   border-radius: 5%;
   border-width: 2px;
   border-style: solid;
   border-color: #ff0000;
-
-  text-align: center;
   color: rgb(0, 0, 0);
+  background-color: #ff000015;
   font-family: 'EBGaramond';
-  font-size: 7vh;
+  font-size: 28px;
+
+}
+
+.divMapNYC:hover {
+  background-color: #ff000038;
 
 }
 
@@ -140,7 +148,7 @@
 
 .mapText {
   text-align: left;
-  font-size: 17px;
+  font-size: 22px;
   margin-left: 11%;
   margin-right: -6%;
 }
@@ -194,7 +202,7 @@
 .headerFourText {
   color: rgb(0, 0, 0);
   font-family: 'EBGaramond';
-  font-size: 2.5vh;
+  font-size: 22px;
   margin-top: 3%;
   margin-left: 4.5%;
   width: 53%;

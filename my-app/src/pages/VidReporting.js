@@ -15,12 +15,13 @@ function VidReporting() {
                 Nonconsensual Video Reporting
             </h1>
             <div className="mapTextContainer2"><p className="mapText">
-                In March 2021 the Manhattan DA’s office announced that it would no longer prosecute people charged on counts of prostitution, and closed over 1,000 open prostitution related cases.  {'\n'} While this follows a nationwide trend towards the decriminalization of sex work, migrant massage workers have become ensnared in a particular type of racialized policing of sex and low wage work.</p></div>
+                In the past several months, street based workers have become the targets of unconsensual filming by journalists, vloggers, and curious passers by. The posted videos are circulated globally, often with inflammatory racist, xenophobic, and whorephobic captions, that put workers in great danger. We invite workers and allies to report such videos here </p></div>
 
-            <div className="embedMap">
-                <iframe src={"https://calendar.google.com/calendar/embed?height=700&wkst=1&bgcolor=%23D50000&ctz=America%2FNew_York&showPrint=1&title=%20&src=bGliZXJhdGlvbmF0bGFzQGdtYWlsLmNvbQ&color=%23039BE5"} style={{ width: "1100px", height: "700px" }}></iframe>
+            <div className="embedMap" style={{ marginTop: "5%" }} >
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeyOAmT5LwSE6xgLqAhNWZHg3DtywJ4gFjSAM5KS9iIeAWR-w/viewform?embedded=true" style={{ width: "640", height: "1492", borderBlock: "none", border: "none", backgroundColor: "#eae7d1" }}>Loading…</iframe>
+
             </div>
-        </div>
+        </div >
 
 
     )
