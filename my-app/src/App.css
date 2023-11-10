@@ -281,3 +281,66 @@ header {
   background: #000000;
   justify-content: space-between;
 }
+
+.dobText {
+  color: rgb(0, 0, 0);
+  font-family: 'EBGaramond';
+  font-size: 2.5vh;
+  text-align: left;
+  text-shadow: 2px 2px #1200000f;
+  width: 85%;
+  margin-left: 11%;
+  margin-right: -6%;
+}
+.inputText {
+  color: rgb(0, 0, 0);
+  font-family: 'EBGaramond';
+  font-size: 2.5vh;
+  text-align: start;
+  margin-left: -56.5%;
+  text-shadow: 2px 2px #1200000f;
+  width: 53%;
+}
+.inputBox {
+  color: rgb(0, 0, 0);
+  font-family: 'EBGaramond';
+  font-size: 2vh;
+  text-align: start;
+  margin-left: 1%;
+  text-shadow: 2px 2px #1200000f;
+  background-color: rgb(251, 248, 224);
+  
+}
+.button {
+  color: rgb(0, 0, 0);
+  font-family: 'EBGaramond';
+  font-size: 2vh;
+  text-align: start;
+  margin-left: 1%;
+  margin-top: 1%;
+  text-shadow: 2px 2px #1200000f;
+  background-color: rgb(251, 248, 224);
+  margin-left: -56.5%;
+  
+}
+
+.violationText{
+  color: rgb(0, 0, 0);
+  font-family: 'EBGaramond';
+  font-size: 2.5vh;
+  text-align: left;
+  text-shadow: 2px 2px #1200000f;
+  margin-left: 11%;
+  list-style-type: none;
+}
+
+.violationOpenText{
+  color: red;
+  font-family: 'EBGaramond';
+  font-size: 2.5vh;
+  text-align: left;
+  text-shadow: 2px 2px #1200000f;
+  margin-left: 11%;
+  list-style-type: none;
+}
+
