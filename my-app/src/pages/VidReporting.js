@@ -18,7 +18,7 @@ function VidReporting() {
                 In the past several months, street based workers have become the targets of unconsensual filming by journalists, vloggers, and curious passers by. The posted videos are circulated globally, often with inflammatory racist, xenophobic, and whorephobic captions, that put workers in great danger. We invite workers and allies to report such videos here </p></div>
 
             <div className="embedMap" style={{ marginTop: "5%" }} >
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeyOAmT5LwSE6xgLqAhNWZHg3DtywJ4gFjSAM5KS9iIeAWR-w/viewform?embedded=true" style={{ width: "640", height: "1492", borderBlock: "none", border: "none", backgroundColor: "#eae7d1" }}>Loading…</iframe>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeyOAmT5LwSE6xgLqAhNWZHg3DtywJ4gFjSAM5KS9iIeAWR-w/viewform?embedded=true" style={{ width: "1100px", height: "600px", borderBlock: "none", border: "none", backgroundColor: "#eae7d1" }}>Loading…</iframe>
 
             </div>
         </div >
