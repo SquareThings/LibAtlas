@@ -292,39 +292,73 @@ header {
   margin-left: 11%;
   margin-right: -6%;
 }
+
 .inputText {
+  display: grid;
+  grid-area: label;
   color: rgb(0, 0, 0);
   font-family: 'EBGaramond';
   font-size: 2.5vh;
+  font-style: bold;
   text-align: start;
-  margin-left: -56.5%;
   text-shadow: 2px 2px #1200000f;
-  width: 53%;
 }
+
 .inputBox {
+  display: grid;
+  grid-area: box;
   color: rgb(0, 0, 0);
   font-family: 'EBGaramond';
   font-size: 2vh;
   text-align: start;
-  margin-left: 1%;
   text-shadow: 2px 2px #1200000f;
   background-color: rgb(251, 248, 224);
-  
+
 }
+
+.InputDiv {
+  display: grid;
+  grid-template-columns: 300px 5px 200px;
+  grid-template-rows: 10px 10px 10px 10px 10px;
+  margin-left: 20%;
+  grid-template-areas:
+    "label . box"
+    "label . box"
+    "label . box";
+
+}
+
 .button {
   color: rgb(0, 0, 0);
   font-family: 'EBGaramond';
   font-size: 2vh;
-  text-align: start;
-  margin-left: 1%;
+  text-align: center;
   margin-top: 1%;
   text-shadow: 2px 2px #1200000f;
   background-color: rgb(251, 248, 224);
-  margin-left: -56.5%;
-  
+  margin-left: -53%;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+
 }
 
-.violationText{
+.button:hover {
+  background-color: rgb(255, 225, 0);
+
+}
+
+/* .formGrid {
+  display: grid;
+  grid-template-colurgb(242, 222, 209)0px;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "label . box"
+    "label . box"
+    "label . box";
+} */
+
+.violationText {
   color: rgb(0, 0, 0);
   font-family: 'EBGaramond';
   font-size: 2.5vh;
@@ -334,7 +368,7 @@ header {
   list-style-type: none;
 }
 
-.violationOpenText{
+.violationOpenText {
   color: red;
   font-family: 'EBGaramond';
   font-size: 2.5vh;
@@ -343,4 +377,3 @@ header {
   margin-left: 11%;
   list-style-type: none;
 }
-
