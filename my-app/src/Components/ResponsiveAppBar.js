@@ -20,6 +20,10 @@ import { red } from '@mui/material/colors';
 import '../App.css';
 import AppRouter from '../AppRouting';
 import { Link } from 'react-router-dom';
+import i18n from "../Languages";
+import { useTranslation, initReactI18next } from "react-i18next";
+import LanguageSelector from './languageSelector';
+
 
 
 const pages = ['About', 'Archive', 'Resources'];
@@ -61,7 +65,7 @@ function ResponsiveAppBar() {
             Liberation Atlas
           </Typography>
           <img src={logo} style={{ height: 50, width: 50 }} />
-
+          <LanguageSelector></LanguageSelector>
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' }, color: 'white', justifyContent: 'flex-end', marginRight: '0' }}>
             <IconButton
               size="large"
