@@ -41,10 +41,10 @@ export const menuItems = [
         name: 'Maps',
         url: '/maps',
         children: [
-            {
-                name: 'DOB Violation Map',
-                url: '/DOBViolationMap',
-            },
+            // {
+            //     name: 'DOB Violation Map',
+            //     url: '/DOBViolationMap',
+            // },
             {
                 name: 'NYC Arrests Maps',
                 url: '/NYCArrestMap',

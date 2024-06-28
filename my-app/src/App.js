@@ -11,7 +11,7 @@ import About from "./pages/About";
 import Events from "./pages/Events";
 import Tools from "./pages/Tools";
 import Maps from "./pages/Maps";
-import Resources from "./pages/About";
+import Resources from "./pages/Resources";
 import DOBLookup from "./pages/DOBLookup";
 import VidReporting from "./pages/VidReporting";
 import Home from "./pages/Home";

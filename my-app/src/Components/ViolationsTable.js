@@ -1,9 +1,9 @@
 import React from 'react'
 
- function ViolationsTable({data}){
-    const DisplayData=data.map(
-        (info)=>{
-            return(
+function ViolationsTable({ data }) {
+    const DisplayData = data.map(
+        (info) => {
+            return (
                 <tr>
                     <td>{info['OATH/ECB Number']}</td>
                     <td>{info['Certification Status']}</td>
@@ -22,37 +22,37 @@ import React from 'react'
             )
         }
     )
- 
-    return(
+
+    return (
         <div>
             <table class="table table-striped">
                 <thead>
                     <tr>
-                    <th>OATH/ECB Number</th>
-                    <th>Certification Status</th>
-                    <th>Respondent</th>
-                    <th>Hearing Status</th>
-                    <th>Violation Date</th>
-                    <th>Infraction Codes</th>
-                    <th>Penalty Due</th>
-                    <th>Severity</th>
-                    <th>Inspection Unit</th>
-                    <th>Violation Type</th>
+                        <th>OATH/ECB Number</th>
+                        <th>Certification Status</th>
+                        <th>Respondent</th>
+                        <th>Hearing Status</th>
+                        <th>Violation Date</th>
+                        <th>Infraction Codes</th>
+                        <th>Penalty Due</th>
+                        <th>Severity</th>
+                        <th>Inspection Unit</th>
+                        <th>Violation Type</th>
 
 
 
                     </tr>
                 </thead>
                 <tbody>
-                 
-                    
+
+
                     {DisplayData}
-                    
+
                 </tbody>
             </table>
-             
+
         </div>
     )
- }
- 
- export default ViolationsTable;
+}
+
+export default ViolationsTable;
